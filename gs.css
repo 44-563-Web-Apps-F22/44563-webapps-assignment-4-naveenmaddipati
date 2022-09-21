@@ -1,0 +1,70 @@
+.speech{
+    color:black;
+    font-family: "Times New Roman", Times, serif;
+    font-size:20px;
+    }
+.song{
+    color:black;
+    font-family: "Brush Script MT","Lucida Handwriting",cursive;
+    font-size:20px;
+    }
+.direction{
+    color:black;
+    font-family: "Lucida Console","Courier New",monospace;
+    font-size:15px;
+    background-color: aliceblue;
+    }
+.direction:hover{
+    color:red;
+    background-color: aquamarine;
+    }
+.name{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    display: inline;
+    }
+.dame{
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.phoebe{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.meryll{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .chorus{
+    color:deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .act{
+       color:green;
+    }
+    #singers th{
+    color:aliceblue;
+    text-align: center;
+    background-color:indigo;
+    padding:10px;
+    border: 1px solid black;
+    }
+    #singers td{
+    padding: 10px;
+    border: 1px solid black;
+    }
+    #singers tr:nth-child(even){
+    background-color: #f2f2f2;
+    }
+    #singers{
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    .name:hover{
+       color: black;
+       text-shadow:2px 2px 4px palevioletred;
+       border-style:dotted;
+    }
